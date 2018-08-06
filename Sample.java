@@ -8,8 +8,10 @@ int x;
 Scanner sc=new Scanner(System.in)
 x=sc.nextInt();
 if(x%2==0)
-System.out.println("The number is even");
-else
-System.out.println("The number is odd");
+System.out.println("Even");
+else if(x%2==1)
+System.out.println("Odd");
+  else
+    System.out.println("Invalid");
 }
 }
